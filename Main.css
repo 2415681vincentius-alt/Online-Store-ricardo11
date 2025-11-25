@@ -1,4 +1,3 @@
-/* ====== CSS TEMA GAMING ====== */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -37,10 +36,8 @@ nav a:hover {
     color: red;
 }
 
-/* Hero */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)),
-    url('https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg') center/cover;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), #222;
     text-align: center;
     padding: 120px 20px;
 }
@@ -54,7 +51,6 @@ nav a:hover {
     font-weight: bold;
 }
 
-/* Produk */
 .highlight {
     padding: 40px;
     text-align: center;
@@ -65,7 +61,6 @@ nav a:hover {
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
-    overflow: visible;
     padding: 20px;
     max-width: 1200px;
     margin: auto;
@@ -102,7 +97,6 @@ nav a:hover {
     width: 100%;
 }
 
-/* Form */
 .kontak-box {
     width: 80%;
     margin: auto;
@@ -143,7 +137,6 @@ footer {
     border-top: 3px solid red;
 }
 
-/* Hilangkan underline pada link produk */
 .produk-link {
     text-decoration: none;
     color: white;
